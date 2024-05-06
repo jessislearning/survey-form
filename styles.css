@@ -1,0 +1,13 @@
+h1, p {
+ margin:1em, auto;
+ text-align: center;
+}
+
+body {
+    text-align:right;
+    background-color: #8a8ab5;
+}
+
+form{
+    padding: 20px;
+}
