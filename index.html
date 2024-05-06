@@ -7,8 +7,23 @@
             <p>We want to understand who our clients are! Please tell us about yourself.</p>
             <body>
                 <form id="survey-form">
-                    <label for="name">Name<input id="name" type="text" placeholder="Name (Required)" required></label>
-                    <label for="email">Email<input id="email" type="email" placeholder="Email address (Required)" required ></label>
+                    <fieldset class="info">
+                        <label for="name-label" id="name-label">Name<input id="name" type="text" placeholder="Enter your name (aliases are ok)" required></label>
+                        <label for="email-label" id="email-label">Email<input id="email" type="email" placeholder="Enter your email address (required)" required ></label>
+                    </fieldset>
+                    <fieldset class="role">
+                        <label for="dropdown">Current role:
+                        <select id="dropdown" name="dropdown">
+                          <option value="">(select one)</option>
+                          <option value="1">Undergraduate Student</option>
+                          <option value="2">Graduate Student</option>
+                          <option value="3">Postdoc/Researcher</option>
+                          <option value="4">Faculty/Senior Researcher</option>
+                          <option value="5">Other</option>
+                        </select></label>
+                        <label for="number-label" id="number-label">Years in Current Role:<input type="number" id="number" min=0 max=40></label>
+                    </fieldset>
+                    <fieldset class="services"></fieldset>
                 </form>
             </body>
         </head>
