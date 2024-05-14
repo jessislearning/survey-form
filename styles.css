@@ -4,10 +4,60 @@ h1, p {
 }
 
 body {
-    text-align:right;
+    text-align:left;
     background-color: #8a8ab5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
-form{
-    padding: 20px;
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+form {
+    text-align:left;
+    width: 90vw;
+    margin: 10px auto;
+}
+
+fieldset {
+    width: 70vw;
+    text-align:left;
+    border-style:solid;
+    border-color:aliceblue;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.fieldset {
+    text-align:left;
+}
+
+input[type=text] {
+    width: 95%;
+}
+
+input[type=email]{
+    width:95%
+}
+
+input[type=submit] {
+    
+    display: block;
+    width: 30%;
+    margin: 1em auto;
+    height: 1.6em;
+    font-size: 1.1rem;
+    
+    min-width: 300px;
+    
+}
+
+textarea {
+    width: 95%;
+    margin: auto;
 }
