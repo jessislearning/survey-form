@@ -7,12 +7,15 @@
             <p>We want to understand who our clients are! Please tell us about yourself.</p>
             <body>
                 <form id="survey-form">
-                    <fieldset class="info">
-                        <label for="name-label" id="name-label">Name<input id="name" type="text" placeholder="Enter your name (aliases are ok)" required></label>
-                        <label for="email-label" id="email-label">Email<input id="email" type="email" placeholder="Enter your email address (required)" required ></label>
-                    </fieldset>
-                    <fieldset class="role">
-                        <label for="dropdown">Current role:
+                <fieldset class="info">
+                    <label for="name" id="name-label">Name<input id="name" type="text" placeholder="Enter your name here" required></label>
+                    <label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your email address (Required)" required ></label>
+                    <p class="fieldset">Have you used any of our services before?</p>
+                    <label><input type="radio" name="current-customer" checked>Yes</label>
+                    <label><input type="radio" name="current-customer">No</label>
+                </fieldset>
+                <fieldset class="role">
+                    <label for="dropdown">What is your current role?
                         <select id="dropdown" name="dropdown">
                           <option value="">(select one)</option>
                           <option value="1">Undergraduate Student</option>
@@ -20,11 +23,27 @@
                           <option value="3">Postdoc/Researcher</option>
                           <option value="4">Faculty/Senior Researcher</option>
                           <option value="5">Other</option>
-                        </select></label>
-                        <label for="number-label" id="number-label">Years in Current Role:<input type="number" id="number" min=0 max=40></label>
-                    </fieldset>
-                    <fieldset class="services"></fieldset>
-                </form>
+                        </select>
+                      </label>
+                    <label for="number" id="number-label">How many years have you been in your current position?<input id="number" type="number" min="0" max="40" placeholder="2"></label>
+                </fieldset>
+                <fieldset>
+                    <p class="fieldset">Where would you like to have some help?</p>
+                    <label><input type="checkbox" value="writing-scientific">Writing - Scientific</label>
+                    <label><input type="checkbox" value="writing-english">Writing - English</label>
+                    <label><input type="checkbox" value="presentation-style">Presentation - Style, Effectiveness, Impactfulness</label>
+                    <label><input type="checkbox" value="presentation-english">Presenting in English - pronunciation, vocabulary, etc.</label>
+                    <label><input type="checkbox" value="culture">Adjusting to culture (team, society, institute)</label>
+                    <label><input type="checkbox" value="minority">Being part of the minority (gender, culture, religious, etc)</label>
+                    <label><input type="checkbox" value="career">Career Track (options, advancement, changing/leaving)</label>
+                    <label><input type="checkbox" value="relationship-professional">Relationships - Professional (colleagues, collaborators, supervisors, etc)</label>
+                    <label><input type="checkbox" value="relationship-personal"> Relationships - Personal (family, partner, children, friends)</label>
+                    <label>Others:
+                    <textarea id="other-help" srows="6" placeholder="Tell us more"></textarea></label>
+
+                </fieldset>
+                <input type="submit" value="Submit" />
+            </form>
             </body>
         </head>
     </html>
