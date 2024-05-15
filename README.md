@@ -3,4 +3,19 @@ This is a project for the Responsive Web Design Certification for freeCodeCamp ð
 The objective is to build a survey form that collects data from users. <br>
 The main files are an index.html file and a style.css file.<br>
 
-More information can be found here: https://www.freecodecamp.org/learn/2022/responsive-web-design
+The survey form contains:<br>
+text input,<br>
+email input,<br>
+number input,<br>
+radio buttons,<br>
+checkboxes,<br>
+a dropdown menu,<br> 
+and a submit button
+
+The survey form is theoretically made for the academic service "Little Castle" (http://little-castle.com)
+
+The version submitted to the freeCodeCamp looks like this:
+<img width="856" alt="image" src="https://github.com/jessislearning/survey-form/assets/161026755/7508bf12-4ddb-4f22-8b94-18df38f5d958">
+
+
+More information on the Responsive Web Design certification can be found here: https://www.freecodecamp.org/learn/2022/responsive-web-design
