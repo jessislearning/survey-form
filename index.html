@@ -4,17 +4,20 @@
         <link rel="stylesheet" href="styles.css"/>
         <head>
             <h1 id="title">Researcher Information</h1>
-            <p>We want to understand who our clients are! Please tell us about yourself.</p>
+            <p id="description">Please fill up the survey below to help us get to know you better!</p>
             <body>
                 <form id="survey-form">
                 <fieldset class="info">
+                    <p class="title">Basic Information</p>
                     <label for="name" id="name-label">Name<input id="name" type="text" placeholder="Enter your name here" required></label>
-                    <label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your email address (Required)" required ></label>
+                    <label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your email address here" required ></label>
                     <p class="fieldset">Have you used any of our services before?</p>
-                    <label><input type="radio" name="current-customer" checked>Yes</label>
-                    <label><input type="radio" name="current-customer">No</label>
+                    <label><input type="radio" name="current-customer" value="yes" checked>Yes</label>
+                    <label><input type="radio" name="current-customer" value="no">No</label>
                 </fieldset>
+                <br>
                 <fieldset class="role">
+                    <p class="title">Professional Information</p>
                     <label for="dropdown">What is your current role?
                         <select id="dropdown" name="dropdown">
                           <option value="">(select one)</option>
@@ -25,10 +28,12 @@
                           <option value="5">Other</option>
                         </select>
                       </label>
-                    <label for="number" id="number-label">How many years have you been in your current position?<input id="number" type="number" min="0" max="40" placeholder="2"></label>
+                    <label for="number" id="number-label">How many years have you been in your current position?<input id="number" type="number" min="0" max="30" placeholder="2"></label>
                 </fieldset>
+                <br>
                 <fieldset>
-                    <p class="fieldset">Where would you like to have some help?</p>
+                    <p class="title">How We Can Help</p>
+                    <p class="fieldset">Tell us about your concerns (check all that apply)</p>
                     <label><input type="checkbox" value="writing-scientific">Writing - Scientific</label>
                     <label><input type="checkbox" value="writing-english">Writing - English</label>
                     <label><input type="checkbox" value="presentation-style">Presentation - Style, Effectiveness, Impactfulness</label>
@@ -42,7 +47,7 @@
                     <textarea id="other-help" srows="6" placeholder="Tell us more"></textarea></label>
 
                 </fieldset>
-                <input type="submit" value="Submit" />
+                <button id="submit" type="submit">Submit</button>
             </form>
             </body>
         </head>
