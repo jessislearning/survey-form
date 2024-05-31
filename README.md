@@ -14,6 +14,8 @@ and a submit button
 
 The survey form is theoretically made for the academic service "Little Castle" (http://little-castle.com)
 
+You can view the page here: https://htmlpreview.github.io/?https://github.com/jessislearning/survey-form/blob/main/index.html
+
 The version submitted to the freeCodeCamp looks like this:
 <img width="856" alt="image" src="https://github.com/jessislearning/survey-form/assets/161026755/7508bf12-4ddb-4f22-8b94-18df38f5d958">
 
