@@ -17,7 +17,9 @@ The survey form is theoretically made for the academic service "Little Castle" (
 You can view the page here: https://htmlpreview.github.io/?https://github.com/jessislearning/survey-form/blob/main/index.html
 
 The version submitted to the freeCodeCamp looks like this:
-<img width="856" alt="image" src="https://github.com/jessislearning/survey-form/assets/161026755/7508bf12-4ddb-4f22-8b94-18df38f5d958">
+<img width="856" alt="image" src="https://github.com/jessislearning/survey-form/assets/161026755/7508bf12-4ddb-4f22-8b94-18df38f5d958"><br><br>
+<img width="1195" alt="image" src="https://github.com/jessislearning/survey-form/assets/161026755/12afed11-b15d-4dfd-8dd5-fac77b9bd656"><br>
+
 
 
 More information on the Responsive Web Design certification can be found here: https://www.freecodecamp.org/learn/2022/responsive-web-design
